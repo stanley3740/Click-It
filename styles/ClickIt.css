@@ -1,0 +1,11 @@
+
+body {
+	text-shadow: none;
+	padding: 0;
+	margin: 0;
+}
+
+body.backgroundColour {
+    background: #f2d5b3;
+    background-size: 100%;
+}
