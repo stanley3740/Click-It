@@ -5,6 +5,7 @@ body {
 	margin: 0;
     background-color: #f2d5b3;
     font-size: 30px;
+    text-align: center;
 }
 
 body.backgroundColour {
