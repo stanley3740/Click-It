@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 
 <head>
     <title>Click It</title>
@@ -11,20 +12,21 @@
 <body class="backgroundColour">
     Click the button!
 
-    <button id = myButton>
+    <button id="myButton">
         Da Button!
     </button>
 
-    <p id = text>
+    <p id="text">
         Hello!
     </p>
-</body>
 
 <script>
-    const element = document.getElementById(myButton);
+    const element = document.getElementById("myButton");
     element.addEventListener("click", myFunction);
 
     function myFunction() {
-        document.getElementById(text).innerHTML = "Bye!";
+        document.getElementById("text").innerHTML = "Bye!";
     }
 </script>
+</body>
+</html>
