@@ -25,7 +25,12 @@
     element.addEventListener("click", myFunction);
 
     function myFunction() {
-        document.getElementById("text").innerHTML = "Bye!";
+        const element = document.getElementById("text");
+        if (element.innerHTML === "Bye!") {
+            document.getElementById("text").innerHTML = "You Stink!";
+        } else {
+            document.getElementById("text").innerHTML = "Bye!";
+        }
     }
 </script>
 </body>
