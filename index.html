@@ -12,25 +12,32 @@
 <body class="backgroundColour">
     Click the button!
 
-    <button id="myButton">
-        Da Button!
-    </button>
+    <div id="button1">
+        <button id="myButton">
+            Da Button!
+        </button>
+    </div>
 
     <p id="text">
-        Hello!
+        Clicks = 0
     </p>
 
 <script>
+    var counter = 0;
     const element = document.getElementById("myButton");
     element.addEventListener("click", myFunction);
 
     function myFunction() {
+        counter++;
         const element = document.getElementById("text");
-        if (element.innerHTML === "Bye!") {
-            document.getElementById("text").innerHTML = "You Stink!";
-        } else {
-            document.getElementById("text").innerHTML = "Bye!";
-        }
+        element.innerHTML = counter;
+
+        // Old code
+        // if (element.innerHTML === "Bye!") {
+        //     document.getElementById("text").innerHTML = "You Stink!";
+        // } else {
+        //     document.getElementById("text").innerHTML = "Bye!";
+        // }
     }
 </script>
 </body>

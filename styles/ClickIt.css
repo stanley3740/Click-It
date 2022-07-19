@@ -10,3 +10,18 @@ body.backgroundColour {
     background-color: #f2d5b3;
     background-size: 100%;
 }
+
+#button1 {
+    text-align: center;
+}
+
+#myButton {
+    background-color: #4CAF50;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-align: center;
+}
+
+#myButton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
