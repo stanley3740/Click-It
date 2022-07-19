@@ -10,4 +10,21 @@
 
 <body class="backgroundColour">
     Click the button!
+
+    <button id = myButton>
+        Da Button!
+    </button>
+
+    <p id = text>
+        Hello!
+    </p>
 </body>
+
+<script>
+    const element = document.getElementById(myButton);
+    element.addEventListener("click", myFunction);
+
+    function myFunction() {
+        document.getElementById(text).innerHTML = "Bye!";
+    }
+</script>
